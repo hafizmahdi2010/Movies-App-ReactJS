@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+.mmovieCard{
+  overflow: hidden;
+}
+.movieCard img{
+  transition: .3s;
+}
+.movieCard:hover img{
+  transform: scale(1.1);
+}
